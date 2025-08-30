@@ -1,31 +1,10 @@
--- phpMyAdmin SQL Dump
--- version 5.0.4
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: May 04, 2021 at 04:20 PM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 7.4.14
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `todolist`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `todolist`
---
 
 CREATE TABLE `todolist` (
   `id` int(11) NOT NULL,
@@ -39,8 +18,8 @@ CREATE TABLE `todolist` (
 --
 
 INSERT INTO `todolist` (`id`, `todo`, `created_at`, `checked`) VALUES
-(77, 'study', '2021-05-04 22:12:39', 0),
-(78, 'code', '2021-05-04 22:12:49', 0);
+(77, 'study', '2025-08-04 22:12:39', 0),
+(78, 'code', '2025-08-04 22:12:49', 0);
 
 -- --------------------------------------------------------
 
@@ -59,8 +38,8 @@ CREATE TABLE `trash` (
 --
 
 INSERT INTO `trash` (`id`, `trashName`, `created_at`) VALUES
-(42, 'kaon', '2021-05-04 22:08:08'),
-(45, 'hugas', '2021-05-04 22:13:08');
+(42, 'kaon', '2025-08-04 22:08:08'),
+(45, 'hugas', '2025-08-04 22:13:08');
 
 --
 -- Indexes for dumped tables
